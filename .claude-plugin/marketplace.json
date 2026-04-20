@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "coltrosetech",
+  "description": "Claude Code plugins from Coltrose Tech — starting with liquid-ios, a design-DNA-first iOS app development workflow.",
+  "owner": {
+    "name": "Coltrose Tech",
+    "email": "yusuf.gul@collbrai.com"
+  },
+  "plugins": [
+    {
+      "name": "liquid-ios",
+      "description": "Design-DNA-first iOS app development — generates 3 interactive HTML design DNA prototypes before any SwiftUI code, locks the chosen DNA into a persistent .design/ system, then emits SwiftUI conformant to motion-fidelity rules.",
+      "category": "development",
+      "author": {
+        "name": "Yusuf İ. Gül",
+        "email": "yusuf.gul@collbrai.com"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/coltrosetech/liquid-ios.git"
+      },
+      "homepage": "https://github.com/coltrosetech/liquid-ios",
+      "keywords": ["ios", "swiftui", "design", "prototype", "iphone", "mobile", "apple"]
+    }
+  ]
+}
