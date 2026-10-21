@@ -1,30 +1,15 @@
 # coltrosetech/claude-plugins
 
-[Coltrose Tech](https://github.com/coltrosetech)'in Claude Code plugin marketplace'i. Şimdilik tek plugin, ama genişleyecek.
+[Coltrose Tech](https://github.com/coltrosetech) Claude Code plugin marketplace'i.
 
-## Kullan
+## Durum
 
-Claude Code içinde:
+Bu marketplace'te aktif plugin yoktur. `liquid-ios`, 21 Ekim 2026 tarihinde kullanımdan kaldırıldı; artık dağıtılmıyor veya desteklenmiyor.
 
-```
-/plugin marketplace add coltrosetech/claude-plugins
-/plugin install liquid-ios@coltrosetech
-```
+Kaynak ve örnekler yalnız tarihsel referans olarak korunur:
 
-Sonra Claude Code'u yeniden başlat. Bittin.
-
-## Plugins
-
-### [`liquid-ios`](https://github.com/coltrosetech/liquid-ios)
-
-Design-DNA-first iOS app geliştirme akışı. SwiftUI yazmadan önce 3 interaktif HTML tasarım DNA prototipi üretir, seçtiğin DNA'yı kalıcı `.design/` sistemine kilitler, sonra motion-fidelity kurallarına uygun SwiftUI çıktısı verir.
-
-- Router skill + init + feature + tweak
-- 3 varsayılan DNA: Liquid Native · Editorial Crisp · Playful Character
-- Motion-fidelity whitelist (CSS ↔ SwiftUI 1:1 eşleşme)
-- Superpowers kompozisyonu (brainstorming, verification, simplify)
-
-**Örnek projeler:** [coltrosetech/liquid-ios-examples](https://github.com/coltrosetech/liquid-ios-examples) — 3 çalışan demo app (Todo, Breathe, Sprout).
+- [liquid-ios arşivi](https://github.com/coltrosetech/liquid-ios)
+- [liquid-ios-examples arşivi](https://github.com/coltrosetech/liquid-ios-examples)
 
 ## Katkıda bulunmak
 
@@ -40,4 +25,4 @@ Detay: [Claude Code plugins documentation](https://docs.claude.com/en/docs/claud
 
 ## Lisans
 
-MIT — marketplace'in kendisi. Her plugin kendi lisansını taşır (liquid-ios MIT'tir).
+MIT — marketplace'in kendisi. Her plugin kendi lisansını taşır.
